@@ -1,0 +1,31 @@
+name = "my-app"
+main = "src/index.ts"
+compatibility_date = "2024-10-20"
+compatibility_flags = [ "nodejs_compat" ]
+
+# [vars]
+API_HOST = "example.com"
+API_ACCOUNT_ID = "example_user"
+# MY_VAR = "my-variable"
+
+JWT_SECRET="eyJhcGlfa2V5IjoiY2NhZDk5ZTAtNTE3My00OTFlLTkyOTEtYzBiNDc0NzgxNDk0IiwidGVuYW50X2lkIjoiZDZhYjM0NjIzNGFhMjRhZmMzNDVmYzU3OTlhNjU2ODgwYWE0YTEzY2NiZWEwZGEwMGE2YzIxMGI3MTNjNGE1NCIsImludGVybmFsX3NlY3JldCI6ImQzZmU3YjU4LThiN2MtNDMzZS1hMmJhLTFjNWZhNzkzMGYyMSJ9"
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNzIxOWQ2NDgtZThhNi00Njg1LWI5YTMtMWVlOGY0NDgxODQxIiwidGVuYW50X2lkIjoiYzRiY2M1MDg5NTVmOThlYWExZjg2NThiMzVlMzNhNTcwNjYyMTNmOTBkN2Q3Y2JkOGYxNDdiYWU4ZWQ3ZjE3OSIsImludGVybmFsX3NlY3JldCI6IjJlOWViZTNhLTVmY2QtNDUzMC05ZGVjLTBhMDA3ZTcyOTk0MCJ9.16s-PORO_E_bFb-3HmbZwvisumd47-EcPTBj9eSqguo"
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+# [observability]
+# enabled = true
+# head_sampling_rate = 1
